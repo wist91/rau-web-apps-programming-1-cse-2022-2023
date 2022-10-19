@@ -76,3 +76,52 @@ a:hover {
 a:active { 
     text-decoration: none; 
 }
+
+.secondarygrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* border: 1px solid green; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    background-color: rgb(255, 252, 252);
+}
+.secondarygrid-child {
+    /* margin-left: 5px; */
+    /* margin-right: 5px; */
+    border: 1px solid royalblue;
+    align-items: center;
+    
+}
+
+.course-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* border: 1px solid green; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    background-color: rgb(255, 252, 252);
+}
+.course-grid-child{
+    border: 1px solid royalblue;
+    align-items: center;
+}
+.course-items-grid{
+    display: grid;
+    grid-template-columns: 1fr 1 fr 1fr;
+    /* border: 1px solid green; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    background-color: rgb(255, 252, 252);
+}
+.course-items-grid-child{
+    border: 1px solid pink;
+    align-items: center;
+}
