@@ -13,7 +13,6 @@
     margin-left: auto;
     margin-right: auto;
     align-content: space-evenly;
-    background-color: gainsboro;
 }
 
 .container-child {
@@ -22,11 +21,58 @@
     /* border: 1px solid red; */
 }
 
-.container-child-right-arrangement {
+.container-child-right-allign {
     justify-self: right;
     align-self: center;
 }
 
 .container-child-left-allign {
     justify-self: left;
+}
+
+.container-color {
+    background-color: gainsboro;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    /* border: 1px solid green; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: space-evenly;
+    background-color: rgb(255, 252, 252);
+}
+
+.main-container-child {
+    /* margin-left: 5px; */
+    margin-right: 5px;
+    border: 1px solid red;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+
+a {
+    color: orangered;
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+a:visited { 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: none; 
+}
+
+a:active { 
+    text-decoration: none; 
 }
