@@ -99,7 +99,7 @@ a:active {
 .course-grid{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
     /* border: 1px solid green; */
     width: 100%;
     margin-left: auto;
@@ -113,7 +113,7 @@ a:active {
 }
 .course-items-grid{
     display: grid;
-    grid-template-columns: 1fr 1 fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     /* border: 1px solid green; */
     width: 100%;
     margin-left: auto;
