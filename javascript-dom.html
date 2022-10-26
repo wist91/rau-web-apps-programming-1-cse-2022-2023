@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="javascript-dom.css">
+    </head>
+
+    <body>
+        <div class="container container-color">
+            <!-- This is the logo. Needs to be on all pages-->
+            <div class="container-child container-child-left-allign">
+                <img src="assets/unnamed.webp" class="logo">
+            </div>
+            <!-- This is the top nav. Needs to be on all pages -->
+            <div id="top-nav-buttons" class="container-child container-child-right-allign">
+                <button id="invite-button">Invite</button>
+                <button name="account-button">Account</button>
+                <button id="signout-button" name="signout-button">Sign out</button>
+            </div>
+        </div>
+        
+        <div class="main-container">
+            <!-- This is the side nav. Needs to be on all pages -->
+            <div class="main-container-child container-color">
+                <nav>
+                    <ol>
+                        <li>
+                            <a href="classmates.html">
+                                Classmates
+                            </a>
+                        </li>
+                        <li>
+                            <a href="courses.html">
+                                Courses
+                            </a>
+                        </li>
+                        <li>
+                            <a href="trade.html">
+                                Trade
+                            </a>
+                        </li>
+                        <li>
+                            <a href="profile.html">
+                                Profile
+                            </a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+
+            <!-- This is the main section of the home page. -->
+            <div class="main-container-child">
+                <div class="secondarygrid">
+                    <!-- This is the preview of the courses -->
+                    <div class="secondarygrid-child">
+                        <div class="course-grid">
+                            <div class="course-grid-child">
+                                <p style="text-align:center">Courses</p>
+                            </div>
+                            <div class="course-grid-child">
+                                <div class="course-items-grid">
+                                    <div class="course-items-grid-child">
+                                        <img src="assets/left-arrow.png">
+                                    </div>
+                                    <div class="course-items-grid-child">
+                                        <a href="www.google.com"><img href="classmates.html" src="assets/pic.jpg"></a>
+                                    </div>
+                                    <div class="course-items-grid-child">
+                                        <img src="assets/pic.jpg">
+                                    </div>
+                                    <div class="course-items-grid-child">
+                                        <img src="assets/pic.jpg">
+                                    </div>
+                                    <div class="course-items-grid-child">
+                                        <img src="assets/right-arrow.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-grid">
+                        <div class="course-grid-child">
+                            <p style="text-align:center">Trade</p>
+                        </div>
+                        <!-- This is the preview of the trades -->
+                        <div class="course-grid-child">
+                            <div class="course-items-grid">
+                                <div class="course-items-grid-child">
+                                    <img src="assets/left-arrow.png">
+                                </div>
+                                <div class="course-items-grid-child">
+                                    <a href="individual-item.html"><img src="assets/iphone.jpg"></a>
+                                </div>
+                                <div class="course-items-grid-child">
+                                    <a href="individual-item.html"><img src="assets/iphone.jpg"></a>
+                                </div>
+                                <div class="course-items-grid-child">
+                                    <a href="individual-item.html"><img src="assets/iphone.jpg"></a>
+                                </div>
+                                <div class="course-items-grid-child">
+                                    <img src="assets/right-arrow.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- This is the chat section. This needs to be on all pages. -->
+        <div class="container-for-chat">
+            <div class="container-for-chat-child">
+
+            </div>
+            <div class="container-for-chat-child">
+                <div class="chat-grid">
+                    <div class="chat-grid-child">
+                        <br>
+                        <label for="mate">Search mate:</label>
+                        <input type="text" id="mate" name="mate"><br>
+                        <br>
+                    </div>
+                    <div class="chat-grid-child">
+                        <label for="last-msg">Last Message:</label><br>
+                        Gigel : Don't forget to send the the project files for Advanced Software Programming!<br>
+                    </div>
+                    <div class="chat-grid-child">
+                        <label for="second-last-msg">Previous Message:</label><br>
+                        Ionica : Did you finish the homework for Statistics?<br>
+                    </div>
+                    <div class="chat-grid-child">
+                        <label for="imp-msg">Message Marked Urgent:</label><br>
+                        Sam : Wanna go for some beers after classes?<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script src="javascript-dom.js"></script>
+    </body>
+</html>

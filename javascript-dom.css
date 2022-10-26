@@ -1,0 +1,173 @@
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50%;
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: space-evenly;
+}
+
+.container-child {
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border: 1px solid red; */
+}
+
+.container-child-right-allign {
+    justify-self: right;
+    align-self: center;
+}
+
+.container-child-left-allign {
+    justify-self: left;
+}
+
+.container-color {
+    background-color: gainsboro;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    /* border: 1px solid green; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: space-evenly;
+    background-color: rgb(255, 252, 252);
+}
+
+.main-container-child {
+    /* margin-left: 5px; */
+    margin-right: 5px;
+    border: 1px solid red;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+
+a {
+    color: orangered;
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+a:visited { 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: none; 
+}
+
+a:active { 
+    text-decoration: none; 
+}
+
+.secondarygrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* border: 1px solid green; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    background-color: rgb(255, 252, 252);
+}
+.secondarygrid-child {
+    /* margin-left: 5px; */
+    /* margin-right: 5px; */
+    border: 1px solid royalblue;
+    align-items: center;
+    
+}
+
+.course-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    /* border: 1px solid green; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    background-color: rgb(255, 252, 252);
+}
+.course-grid-child{
+    border: 1px solid royalblue;
+    align-items: center;
+}
+
+.course-items-grid{
+    display: grid;
+    grid-template-columns: 0.1fr 0.8fr 0.8fr 0.8fr 0.1fr;
+    /* border: 1px solid green; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* align-content: center; */
+    background-color: rgb(255, 252, 252);
+}
+
+.course-items-grid-child{
+    border: 1px solid pink;
+    /* align-items: center; */
+    align-self: center;
+    
+}
+
+.container-for-chat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50%;
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: space-evenly;
+}
+.container-for-chat-child {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.container-for-chat-child-right-allign {
+    justify-self: right;
+    align-self: center;
+}
+.container-for-chat-child-left-allign {
+    justify-self: left;
+    align-self: center;
+}
+.chat-grid{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-gap:0%;
+    /* width:100%; */
+    margin-left:0%;
+    margin-right:0%
+}
+.chat-grid-child{
+    margin-left:5px;
+    margin-right:5px;
+    border: 1px solid royalblue;
+}
+div {
+    text-align:center;
+}
