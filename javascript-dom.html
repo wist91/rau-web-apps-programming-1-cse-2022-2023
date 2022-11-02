@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="javascript-dom.css">
     </head>
 
     <body>
@@ -12,10 +12,10 @@
                 <img src="assets/unnamed.webp" class="logo">
             </div>
             <!-- This is the top nav. Needs to be on all pages -->
-            <div class="container-child container-child-right-allign">
-                <button>Invite</button>
-                <button>Account</button>
-                <button>Sign out</button>
+            <div id="top-nav-buttons" class="container-child container-child-right-allign">
+                <button id="invite-button">Invite</button>
+                <button name="account-button">Account</button>
+                <button id="signout-button" name="signout-button">Sign out</button>
             </div>
         </div>
         
@@ -107,40 +107,6 @@
                 
             </div>
         </div>
-        <div class="main-container-child">
-            <!-- This is the preview of the courses -->
-            <div>
-                <ul>
-                    <li>
-                        <a href="individual-course.html">
-                            Course 1
-                        </a>
-                    </li>
-                    <li>
-                        <a href=""individual-course.html">
-                            Course 2
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- This is the preview of the trades -->
-            <div>
-                <ul>
-                    <li>
-                        <a href="individual-item.html">
-                            Item 1
-                        </a>
-                    </li>
-                    <li>
-                        <a href=""individual-item.html">
-                            Item 2
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>        
 
         <!-- This is the chat section. This needs to be on all pages. -->
         <div class="container-for-chat">
@@ -170,5 +136,7 @@
                 </div>
             </div>
         </div>
+    
+        <script src="javascript-dom.js"></script>
     </body>
 </html>
